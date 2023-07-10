@@ -1,1 +1,1 @@
-# templateGenerator
+# Template Generator
