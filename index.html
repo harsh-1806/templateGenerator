@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>templateGenerator</title>
+    <link rel="shortcut icon" href="img/icons8-wrench-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="page">
+        <div class="page page--vscode" id="vscode-page">
+            <div class="page-header">
+                <h1 class="page-title">Template Generator</h1>
+                <p class="page-subtitle">Made by <a class="page-link" href="#">Harsh Kumar</a>
+                    | Source code on <a class="page-link"
+                        href="#">GitHub</a> | <a class="page-link"
+                        href="#">Share
+                        on Twitter</a> </p>
+            </div>
+            <div class="page-main">
+                <div class="page-half">
+                    <div class="page-halftop"><input type="text" class="page-input" id="desc" name="description"
+                            placeholder="&lt;---Description ---&gt;" autocomplete="off" autocorrect="off" autocapitalize="off"
+                            spellcheck="false" value=""><input type="text" class="page-input" id="trig" name="tabTrigger"
+                            placeholder="&lt--- Tab trigger ---&gt;" autocomplete="off" autocorrect="off" autocapitalize="off"
+                            spellcheck="false" value=""></div>
+                    <div class="page-halfbottom"><textarea class="page-textarea" name="snippet"
+                        id="snippetInput"
+                            placeholder="Your snippet…" autocomplete="off" autocorrect="off" autocapitalize="off"
+                            spellcheck="false" wrap="off"></textarea>
+                        <p class="page-info">To declare a placeholder (ctrl + i): <span
+                                class="page-infoselect">${1:example}</span> | <a class="page-infolink"
+                                href="https://code.visualstudio.com/docs/editor/userdefinedsnippets" target="_blank"
+                                rel="noopener noreferrer">More info</a></p>
+                    </div>
+                </div>
+                <div class="page-half">
+                    <div class="page-halftop"><button id="vscode-button" class="page-button page-button--vscode page-button--active">VSCode</button><button
+                            class="page-button page-button--sublimetext">Sublime Text</button><button
+                            class="page-button page-button--atom">Atom</button></div>
+                    <div class="page-halfbottom">
+                        <pre id="out" class="page-pre">"": {
+                            "prefix": "",
+                            "body": [
+                              ""
+                            ],
+                            "description": ""
+                          }</pre>
+                        <div class="page-buttons"><button id="copy-button" class="page-btn page-btncopy">Copy snippet</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
