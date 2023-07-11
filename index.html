@@ -15,21 +15,18 @@
         <div class="page page--vscode" id="vscode-page">
             <div class="page-header">
                 <h1 class="page-title">Template Generator</h1>
-                <p class="page-subtitle">Made by <a class="page-link" href="#">Harsh Kumar</a>
-                    | Source code on <a class="page-link"
-                        href="#">GitHub</a> | <a class="page-link"
-                        href="#">Share
+                <p class="page-subtitle">Source code on <a class="page-link" href="https://github.com/harsh-1806/templateGenerator">GitHub</a> | <a class="page-link" href="https://twitter.com">Share
                         on Twitter</a> </p>
             </div>
             <div class="page-main">
                 <div class="page-half">
-                    <div class="page-halftop"><input type="text" class="page-input" id="desc" name="description"
-                            placeholder="&lt;---Description ---&gt;" autocomplete="off" autocorrect="off" autocapitalize="off"
-                            spellcheck="false" value=""><input type="text" class="page-input" id="trig" name="tabTrigger"
-                            placeholder="&lt--- Tab trigger ---&gt;" autocomplete="off" autocorrect="off" autocapitalize="off"
-                            spellcheck="false" value=""></div>
-                    <div class="page-halfbottom"><textarea class="page-textarea" name="snippet"
-                        id="snippetInput"
+                    <div class="page-halftop">
+                        <input type="text" id="description" class="page-input" id="desc" name="description"
+                            placeholder="&lt;---Description ---&gt;" value="">
+                        <input type="text" class="page-input" id="trig" name="tabTrigger"
+                            placeholder="&lt--- Tab trigger ---&gt;" value="">
+                    </div>
+                    <div class="page-halfbottom"><textarea class="page-textarea" name="snippet" id="snippetInput"
                             placeholder="Your snippet…" autocomplete="off" autocorrect="off" autocapitalize="off"
                             spellcheck="false" wrap="off"></textarea>
                         <p class="page-info">To declare a placeholder (ctrl + i): <span
@@ -39,18 +36,14 @@
                     </div>
                 </div>
                 <div class="page-half">
-                    <div class="page-halftop"><button id="vscode-button" class="page-button page-button--vscode page-button--active">VSCode</button><button
-                            class="page-button page-button--sublimetext">Sublime Text</button><button
-                            class="page-button page-button--atom">Atom</button></div>
+                    <div class="page-halftop">
+                        <button id="vscode-button"
+                            class="page-button page-button--vscode page-button--active">VSCode</button>
+                        <button class="page-button page-button--sublimetext" id="sublime-button">Sublime Text</button>
+                        
+                    </div>
                     <div class="page-halfbottom">
-                        <pre id="out" class="page-pre">"": {
-                            "prefix": "",
-                            "body": [
-                              ""
-                            ],
-                            "description": ""
-                          }</pre>
-                        <div class="page-buttons"><button id="copy-button" class="page-btn page-btncopy">Copy snippet</button></div>
+                        <pre id="out" class="page-pre"></pre>
                     </div>
                 </div>
             </div>
