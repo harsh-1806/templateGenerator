@@ -16,12 +16,6 @@ To use the Template Generator, follow these steps:
 
 - Now you can view the live preview of the page using ```Open with Live Server``` option in VSCode.
 
-### TODO
-
-- [ ] Add Copy to Clipboard button
-- [ ] Add JS logic
-- [ ] Segment the Style Sheets
-
 
 ## Contributing
 Contributions are welcome and encouraged! If you would like to contribute to the Simple Snippet Generator, please follow these guidelines:
@@ -33,3 +27,10 @@ Contributions are welcome and encouraged! If you would like to contribute to the
 - Open a pull request, describing your changes and their benefits.
 
 Please ensure that your code adheres to the project's coding conventions and includes appropriate documentation and tests.
+
+
+### TODO
+
+- [ ] Add Copy to Clipboard button
+- [ ] Add JS logic
+- [ ] Segment the Style Sheets
