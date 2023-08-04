@@ -1,0 +1,21 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 1440px;
+    margin-bottom: 8px;
+    padding: 16px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 960px) {
+    .page-header {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      padding: 0;
+    }
+  }

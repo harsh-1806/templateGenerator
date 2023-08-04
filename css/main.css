@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("sections/header.css");
 
 * {
     margin: 0;
@@ -41,28 +41,6 @@
   @media screen and (min-width: 960px) {
     .page {
       padding: 32px;
-    }
-  }
-  
-  .page-header {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 1440px;
-    margin-bottom: 8px;
-    padding: 16px;
-    color: #fff;
-    text-align: center;
-  }
-  
-  @media screen and (min-width: 960px) {
-    .page-header {
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 32px;
-      padding: 0;
     }
   }
   
@@ -176,7 +154,7 @@
     box-shadow: inset 0 0 0 1px #40a977;
   }
   
-  .page-info {
+  /* .page-info {
     display: none;
     position: absolute;
     right: 8px;
@@ -189,7 +167,7 @@
     .page-info {
       display: block;
     }
-  }
+  } */
   
   .page-infoselect {
     transition: color 140ms;
